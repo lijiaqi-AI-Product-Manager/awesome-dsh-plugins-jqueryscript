@@ -1491,6 +1491,9 @@ Each category below contains the actual plugin entries. Entries within a categor
 - [AnySearch DSH](https://github.com/anysearch-team/anysearch-dsh) - **432 stars** | `MIT`. Web search for DSH with source discovery, vertical search, bounded batch queries, and cleaned page content.
   - Install: `npx -y @deepseek-ai/dsh plugin --profile web add @anysearch/anysearch-dsh`
 
+- [AgentCompare](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare) - **426 stars** | `MIT`. AgentCompare compares 2–4 answers, files or live pages in the DSH Desktop/Web main conversation, with Chinese/English UI, shared conversation context, blind or open picks and reviewed adoption.
+  - Install: `dsh plugin --profile web add dsh-agent-compare@3.1.1`
+
 - [Oh Story DSH](https://github.com/zenstory-ai/oh-story-dsh) - **421 stars** | `MIT`. A DSH plugin for fiction and short-drama production with writing skills, specialist roles, workspace routing, and previews.
   - Install: `dsh plugin --profile web add @oh-story/dsh@0.1.4`
 
@@ -1793,7 +1796,6 @@ Each category below contains the actual plugin entries. Entries within a categor
 
 - [OpenBiliClaw](https://github.com/whiteguo233/dsh-openbiliclaw) - **59 stars** | `BSD-3-Clause`. A DeepSeek Harness bundle for OpenBiliClaw workflows and related content tools.
   - Install: `dsh plugin --profile web add @openbiliclaw/dsh-plugin`
-
 
 - [DSH All-in-One Suite](https://github.com/whyihaveyou/dsh-suite) - **57 stars** | `MIT`. An all-in-one DSH plugin suite bundling a store, notifications, session export, team board, presets, and themes.
   - Install: `dsh plugin --profile web add @dsh-suite/all`
@@ -2125,10 +2127,6 @@ Each category below contains the actual plugin entries. Entries within a categor
 - [DSH Toolbox Suite](https://github.com/HiWhaleW/dsh-toolbox) - **29 stars** | `PolyForm Noncommercial 1.0.0`. A suite of DSH bundles for product research, context switching, plugin preflight checks, and compatibility monitoring.
   - Install: `dsh plugin --profile toolbox add ./dist/dsh-toolbox-product-research-workbench-0.2.1.tgz && dsh plugin --profile toolbox add ./dist/dsh-toolbox-context-switchboard-0.2.1.tgz && dsh plugin --profile toolbox add ./dist/dsh-toolbox-plugin-preflight-0.2.1.tgz && dsh plugin --profile toolbox add ./dist/dsh-toolbox-compatibility-radar-0.2.1.tgz`
 <!-- END GENERATED CATEGORY LIST -->
-
-- [AgentCompare](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare) - **294 stars** | `MIT`. Compare 2–4 answers, files or live pages in DSH Desktop and Web, choose blind or openly, and review adoption while keeping picks and reasons in the main conversation.
-  - Install: `dsh plugin --profile web add dsh-agent-compare@2.0.0`
-  - [![npm downloads/month](https://img.shields.io/npm/dm/dsh-agent-compare?style=flat&label=npm%20downloads%2Fmonth)](https://www.npmjs.com/package/dsh-agent-compare)
 
 ## Install plugins carefully
 
